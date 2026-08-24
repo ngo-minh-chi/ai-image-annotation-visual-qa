@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "review_001",
+    "annotation_issue": "incorrect_object_count",
+    "description": "The annotation reports two people, but only one person is clearly visible.",
+    "severity": "major",
+    "recommended_action": "correct",
+    "review_status": "rejected"
+  },
+  {
+    "case_id": "review_002",
+    "annotation_issue": "unsupported_answer",
+    "description": "The answer contains information that cannot be verified from visible image evidence.",
+    "severity": "major",
+    "recommended_action": "revise_answer",
+    "review_status": "rejected"
+  },
+  {
+    "case_id": "review_003",
+    "annotation_issue": "low_confidence",
+    "description": "The visual content is partially ambiguous and the annotation should use a lower confidence score.",
+    "severity": "minor",
+    "recommended_action": "adjust_confidence",
+    "review_status": "needs_review"
+  },
+  {
+    "case_id": "review_004",
+    "annotation_issue": "correct_annotation",
+    "description": "The object label, count, evidence, and confidence score are consistent with the visible image.",
+    "severity": "none",
+    "recommended_action": "accept",
+    "review_status": "approved"
+  }
+]
