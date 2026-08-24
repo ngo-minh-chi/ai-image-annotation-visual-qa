@@ -1,0 +1,137 @@
+[
+  {
+    "image_id": "img_001",
+    "image_type": "photograph",
+    "objects": [
+      {
+        "label": "person",
+        "count": 1,
+        "confidence": 0.99
+      },
+      {
+        "label": "laptop",
+        "count": 1,
+        "confidence": 0.98
+      }
+    ],
+    "visual_attributes": {
+      "dominant_colors": ["black", "gray"],
+      "lighting": "indoor",
+      "image_quality": "good"
+    },
+    "qa": {
+      "question": "Is there a laptop visible in the image?",
+      "answer": "yes",
+      "evidence": "A laptop is clearly visible in the foreground.",
+      "confidence": 0.99
+    },
+    "annotation_status": "verified"
+  },
+  {
+    "image_id": "img_002",
+    "image_type": "photograph",
+    "objects": [
+      {
+        "label": "person",
+        "count": 2,
+        "confidence": 0.97
+      },
+      {
+        "label": "chair",
+        "count": 2,
+        "confidence": 0.96
+      }
+    ],
+    "visual_attributes": {
+      "dominant_colors": ["brown", "dark gray"],
+      "lighting": "indoor",
+      "image_quality": "good"
+    },
+    "qa": {
+      "question": "Are there two people visible in the image?",
+      "answer": "yes",
+      "evidence": "Two people can be clearly distinguished in the scene.",
+      "confidence": 0.97
+    },
+    "annotation_status": "verified"
+  },
+  {
+    "image_id": "img_003",
+    "image_type": "illustration",
+    "objects": [
+      {
+        "label": "face",
+        "count": 5,
+        "confidence": 0.94
+      }
+    ],
+    "visual_attributes": {
+      "dominant_colors": ["purple", "orange", "yellow", "blue"],
+      "lighting": "bright",
+      "image_quality": "good"
+    },
+    "qa": {
+      "question": "Does the image contain multiple stylized faces?",
+      "answer": "yes",
+      "evidence": "Multiple stylized faces are visibly arranged across the composition.",
+      "confidence": 0.94
+    },
+    "annotation_status": "verified"
+  },
+  {
+    "image_id": "img_004",
+    "image_type": "digital_art",
+    "objects": [
+      {
+        "label": "helmet",
+        "count": 1,
+        "confidence": 0.98
+      },
+      {
+        "label": "person",
+        "count": 1,
+        "confidence": 0.98
+      }
+    ],
+    "visual_attributes": {
+      "dominant_colors": ["red", "black", "silver"],
+      "lighting": "high_contrast",
+      "image_quality": "good"
+    },
+    "qa": {
+      "question": "Is the person wearing a metallic helmet?",
+      "answer": "yes",
+      "evidence": "A large metallic helmet is clearly visible on the person's head.",
+      "confidence": 0.98
+    },
+    "annotation_status": "verified"
+  },
+  {
+    "image_id": "img_005",
+    "image_type": "poster",
+    "objects": [
+      {
+        "label": "person",
+        "count": 1,
+        "confidence": 0.99
+      },
+      {
+        "label": "text",
+        "count": 1,
+        "confidence": 0.99
+      }
+    ],
+    "visual_attributes": {
+      "dominant_colors": ["pink", "blue", "white"],
+      "lighting": "soft",
+      "image_quality": "good"
+    },
+    "qa": {
+      "question": "Does the image contain prominent text?",
+      "answer": "yes",
+      "evidence": "Large headline text is clearly visible at the top and lower portion of the poster.",
+      "confidence": 0.99
+    },
+    "annotation_status": "verified"
+  }
+]
