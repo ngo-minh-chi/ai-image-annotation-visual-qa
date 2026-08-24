@@ -1,0 +1,82 @@
+[
+  {
+    "case_id": "qa_001",
+    "image_id": "img_001",
+    "question": "Is there a laptop visible in the image?",
+    "expected_answer": "yes",
+    "evidence": "A laptop is clearly visible in the foreground.",
+    "difficulty": "easy",
+    "confidence": 0.99,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_002",
+    "image_id": "img_002",
+    "question": "Are there two people visible in the image?",
+    "expected_answer": "yes",
+    "evidence": "Two people can be clearly distinguished in the scene.",
+    "difficulty": "easy",
+    "confidence": 0.97,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_003",
+    "image_id": "img_003",
+    "question": "Does the image contain multiple stylized faces?",
+    "expected_answer": "yes",
+    "evidence": "Multiple stylized faces are visibly arranged across the composition.",
+    "difficulty": "medium",
+    "confidence": 0.94,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_004",
+    "image_id": "img_004",
+    "question": "Does the image contain a helmet?",
+    "expected_answer": "yes",
+    "evidence": "A large metallic helmet is clearly visible on the person's head.",
+    "difficulty": "easy",
+    "confidence": 0.98,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_005",
+    "image_id": "img_005",
+    "question": "Does the image contain prominent text?",
+    "expected_answer": "yes",
+    "evidence": "Large headline text is clearly visible at the top and lower portion of the poster.",
+    "difficulty": "easy",
+    "confidence": 0.99,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_006",
+    "image_id": "img_003",
+    "question": "Are the faces photographic portraits of real people?",
+    "expected_answer": "no",
+    "evidence": "The visible faces are stylized illustrations rather than photographic portraits.",
+    "difficulty": "medium",
+    "confidence": 0.96,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_007",
+    "image_id": "img_004",
+    "question": "Is the helmet made entirely of black material?",
+    "expected_answer": "no",
+    "evidence": "The helmet contains prominent silver and metallic gray elements.",
+    "difficulty": "medium",
+    "confidence": 0.95,
+    "status": "verified"
+  },
+  {
+    "case_id": "qa_008",
+    "image_id": "img_005",
+    "question": "Is the poster free of visible text?",
+    "expected_answer": "no",
+    "evidence": "The poster contains multiple clearly visible text elements including a large title.",
+    "difficulty": "easy",
+    "confidence": 0.99,
+    "status": "verified"
+  }
+]
